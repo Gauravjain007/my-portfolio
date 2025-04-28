@@ -1,0 +1,59 @@
+.Intro {
+    min-height: 100vh;
+    height: 100vh;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+}
+
+.Intro-container {
+    display: block;
+    max-width: 90vw;
+    margin: auto auto auto 5vw;
+    letter-spacing: 0.2vw;
+    padding: 2vh 2vw;
+}
+
+.intro-text {
+    font-size: 3vw;
+    padding-bottom: 5vh;
+    line-height: 1.25;
+}
+
+#intro-name {
+    color: #ff9800;
+}
+
+#intro-button {
+    color: #ff9800;
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 0.8vh 0.8vw;
+    border: solid;
+    border-color: #ff9800;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 0.6rem;
+    position: relative;
+    animation: slideIn 2s forwards;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#intro-button:hover {
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+}

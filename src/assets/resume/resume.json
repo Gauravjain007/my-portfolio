@@ -1,0 +1,149 @@
+{
+    "name": "Gaurav Doongarwal",
+    "jobProfile": "Full Stack Software Developer",
+    "aboutMe": "Full-Stack Software Developer with 3+ years of experience building scalable, high-performance web applications. Skilled in Java, Spring Boot, ReactJS, AWS, and SQL. Passionate about clean architecture, optimization, and continuous learning.",
+    "contactDetails": {
+        "phoneNo": "9356522370",
+        "emailId": "gauravdoongarwal@gmail.com",
+        "linkedinUrl": "linkedin.com/in/gaurav-jain-27701b181"
+    },
+    "address": {
+        "permanentAddress": {
+            "address": "B-34, 2560/63, Naseeb Enclave",
+            "city": "Ludhiana",
+            "state": "Punjab",
+            "country": "India"
+        },
+        "currentAddress": {
+            "address": "Flat G1, Hitec Avenue Block-B, Madhapur",
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        }
+    },
+    "languages": ["English", "Hindi", "Punjabi"],
+    "hobbies": {
+        "Travel Enthusiast": "Passionate about exploring new places and cultures.",
+        "Tech-Savvy": "Passionate about staying updated with the latest Technology and Industry trends.",
+        "Sports": "Enjoy playing volleyball, cricket, and chess.",
+        "Community Service": "Organizer and volunteer for blood donation camps with the NGO 'Donate Blood to Donate Life'."
+    },
+    "skills": {
+        "prioritySkills": [
+            "Java",
+            "React JS",
+            "TypeScript",
+            "MySQL",
+            "Snowflake"
+        ],
+        "allSkills": [
+            "Java",
+            "Spring Framework",
+            "SpringBoot",
+            "React.JS",
+            "JavaScript",
+            "TypeScript",
+            "MySQL",
+            "Snowflake",
+            "Redux - Saga",
+            "Express.JS",
+            "AWS Cloud",
+            "Python",
+            "Git & GitHub",
+            "Jenkins",
+            "SpreadJS",
+            "Jinja Templating",
+            "Rest APIs",
+            "Mockito",
+            "Jest",
+            "WebdriverIO",
+            "Selenium",
+            "JMeter",
+            "Jira Ticketing",
+            "Agile Methodology"
+        ]
+    },
+    "education": {
+        "graduation": {
+            "degree": "Bachelor of Engineering in Computer Science",
+            "degreeShorthand": "B.E.",
+            "specialization": "Computer Science",
+            "institute": "Chandigarh University",
+            "address": "Kharar, Punjab",
+            "grade": "8.02 CGPA",
+            "tenure": {
+                "startYear": "2018",
+                "endYear": "2022"
+            }
+        },
+        "secondary": {
+            "institute": "Saraswati Modern Sen. Sec. School",
+            "address": "Hambran Road, Ludhiana",
+            "grade": "79%",
+            "passingYear": "2018"
+        },
+        "matriculation": {
+            "institute": "Saraswati Modern Sen. Sec. School",
+            "address": "Hambran Road, Ludhiana",
+            "grade": "9.6 CGPA",
+            "passingYear": "2016"
+        }
+    },
+    "workEx": [
+        {
+            "organisation": "Highradius Technologies",
+            "position": "Software Development Engineer II",
+            "tenure": {
+                "from": "Jan, 2025",
+                "till": "Present"
+            },
+            "description": ""
+        },
+        {
+            "organisation": "Highradius Technologies",
+            "position": "Software Engineer - I",
+            "tenure": {
+                "from": "July, 2024",
+                "till": "Dec, 2024"
+            },
+            "description": ""
+        },
+        {
+            "organisation": "Highradius Technologies",
+            "position": "Associate Software Engineer - II",
+            "tenure": {
+                "from": "Jan, 2024",
+                "till": "June, 2024"
+            },
+            "description": ""
+        },
+        {
+            "organisation": "Highradius Technologies",
+            "position": "Associate Software Engineer - I",
+            "tenure": {
+                "from": "July, 2022",
+                "till": "Dec, 2023"
+            },
+            "description": ""
+        },
+        {
+            "organisation": "Highradius Technologies",
+            "position": "UI Automation Engineer (Intern)",
+            "tenure": {
+                "from": "Aug, 2021",
+                "till": "June, 2022"
+            },
+            "description": ""
+        }
+    ],
+    "projects": [
+        {
+            "projectName": "Treasury Management System",
+            "description": ""
+        },
+        {
+            "projectName": "B2B Invoice Management System",
+            "description": ""
+        }
+    ]
+}
