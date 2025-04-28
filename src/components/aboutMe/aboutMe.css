@@ -25,7 +25,8 @@
 }
 
 .About-Me-divider {
-    max-width: 87vw;
+    max-width: 100%;
+    margin: 0vw 6vw;
     border: 0.2vw solid #07071d;
     border-radius: 0.4vw;
     color: #07071d;
@@ -112,4 +113,14 @@
 
 .Current-Status-Label {
     font-weight: 700;
+}
+
+.Downwards-Arrow {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Downwards-Arrow:hover {
+    cursor: pointer;
 }

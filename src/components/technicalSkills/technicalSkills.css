@@ -1,4 +1,4 @@
-.Projects {
+.TechnicalSkills {
     min-height: 90vh;
     height: 90vh;
     transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -7,28 +7,28 @@
     align-items: center;
 }
 
-.Projects-container {
+.TechnicalSkills-container {
     display: block;
     margin: auto;
     color: white;
     height: 80vh;
 }
 
-.Projects-heading {
+.TechnicalSkills-heading {
     font-size: 5vh;
     text-align: center;
     letter-spacing: 0.3vw;
     margin-top: 3vh;
 }
 
-.Projects-body {
+.TechnicalSkills-body {
     display: flex;
     height: 100%;
     justify-content: space-around;
     align-items: center;
 }
 
-.Projects-body-text {
+.TechnicalSkills-body-text {
     color: white;
     width: 40vw;
     height: 70vh;
@@ -37,17 +37,11 @@
     background-color: rgba(255, 255, 255, 0.462);
 }
 
-.Projects-body-img {
+.TechnicalSkills-body-img {
     color: white;
     width: 40vw;
     height: 70vh;
     text-align: center;
     align-content: center;
     background-color: rgba(255, 255, 255, 0.462);
-}
-
-.Downwards-Arrow {
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }

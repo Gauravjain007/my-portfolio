@@ -14,6 +14,7 @@ const Introduction = () => {
         <>
             <section className="Intro">
                 <div className="Intro-container">
+                    {/* <NetworkBackground /> */}
                     <div className="intro-text">
                         <span>Hi, my name is </span>
                         <span id="intro-name">{IntroConstants.NAME} </span>
@@ -28,7 +29,7 @@ const Introduction = () => {
                     </div>
                 </div>
             </section>
-            <AboutMe scrollRef={ref}></AboutMe>
+            <AboutMe scrollRef={ref} />
         </>
     );
 };

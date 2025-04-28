@@ -1,16 +1,16 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./aboutMe.css";
 import resumeData from "../../assets/resume/resume.json";
 import resume from "../../assets/resume/Gaurav_Doongarwal_Resume_2025.pdf";
 import profilePic from "../../assets/images/Photograph.jpg";
-import Projects from "../projects/projects";
+import gif from "../../assets/icons/scrollIndicator.gif";
+import TechnicalSkills from "../technicalSkills/technicalSkills";
 
 const AboutMe = ({ scrollRef }) => {
-    // const getPrioritySkills = () => {
-    //     return resumeData.skills.prioritySkills.map((skill) => {
-    //         return <span className="About-Me-skillItem">{skill}</span>;
-    //     });
-    // };
+    const ref = useRef(null);
+    const handleButtonClick = () => {
+        ref.current?.scrollIntoView({ behavior: "smooth" });
+    };
     return (
         <>
             <section className="About-Me">
@@ -45,12 +45,6 @@ const AboutMe = ({ scrollRef }) => {
                                     {", "}
                                     {resumeData.address.currentAddress.country}
                                 </span>
-                                {/* <div id="About-Me-skillsHead">
-                                    <span>KEY SKILLS</span>
-                                </div>
-                                <div id="About-Me-skills">
-                                    {getPrioritySkills()}
-                                </div> */}
                             </div>
                             <div id="About-Me-ButtonDiv">
                                 <a
@@ -66,7 +60,16 @@ const AboutMe = ({ scrollRef }) => {
                     </div>
                 </div>
             </section>
-            <Projects />
+            <div className="Downwards-Arrow">
+                <img
+                    src={gif}
+                    alt="scrollDown"
+                    style={{ width: "4rem", height: "4rem" }}
+                    onClick={handleButtonClick}
+                    role="presentation"
+                ></img>
+            </div>
+            <TechnicalSkills scrollRef={ref} />
         </>
     );
 };

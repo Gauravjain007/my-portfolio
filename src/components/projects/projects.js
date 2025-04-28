@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import gif from "../../assets/icons/scrollIndicator.gif";
-import TechStackGrid from "../aboutMe/techStackGrid/techStackGrid";
+import TechStackGrid from "../technicalSkills/techStackGrid/techStackGrid";
 
 const Projects = () => {
     return (
@@ -11,9 +11,9 @@ const Projects = () => {
                     <div className="Projects-heading">
                         <span>PROJECTS</span>
                     </div>
-                    {/* <div className="Projects-body">
+                    <div className="Projects-body">
                         <TechStackGrid></TechStackGrid>
-                    </div> */}
+                    </div>
                 </div>
             </section>
             <div className="Downwards-Arrow">

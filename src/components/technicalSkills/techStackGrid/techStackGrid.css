@@ -1,0 +1,108 @@
+/* techStackGrid.css */
+.tech-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills_row:not(:last-child) {
+    margin-right: 25px;
+}
+
+.skills_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills_row-2 {
+    margin-bottom: 10rem !important;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.skills_item:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.skills_item-fade-in {
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .skills_item {
+        height: 80px;
+        width: 130px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .skills_item {
+        opacity: 1;
+        border-width: 2px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .skills_item {
+        height: 90px;
+        width: 145px;
+    }
+}
+
+.skills_item {
+    opacity: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 160px;
+    border: double 3px transparent;
+    border-image-slice: 1;
+    border-width: 3px;
+    background-image: linear-gradient(#1a1a1a, #1a1a1a),
+        radial-gradient(circle at top left, #51a2e9, #ff4d5a);
+    border-radius: 10px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: transform 0.2s, opacity 1.2s;
+    overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+    .skills_item-icon {
+        height: 50px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .skills_item-icon {
+        height: 55px;
+    }
+}
+
+.skills_item-icon {
+    height: 60px;
+    width: auto;
+    transition: all 0.2s;
+}
+
+@media (max-width: 1200px) {
+    .skills_item-name {
+        font-size: 1.4rem;
+    }
+}
+.skills_item-name {
+    font-size: 0.6rem;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+}
