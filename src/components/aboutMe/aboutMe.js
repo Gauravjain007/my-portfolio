@@ -5,6 +5,7 @@ import resume from "../../assets/resume/Gaurav_Doongarwal_Resume_2025.pdf";
 import profilePic from "../../assets/images/Photograph.jpg";
 import gif from "../../assets/icons/scrollIndicator.gif";
 import TechnicalSkills from "../technicalSkills/technicalSkills";
+import ContactDetails from "../contactDetails/contactDetails";
 
 const AboutMe = ({ scrollRef }) => {
     const ref = useRef(null);
@@ -70,6 +71,7 @@ const AboutMe = ({ scrollRef }) => {
                 ></img>
             </div>
             <TechnicalSkills scrollRef={ref} />
+            <ContactDetails />
         </>
     );
 };

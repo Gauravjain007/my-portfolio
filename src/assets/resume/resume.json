@@ -3,9 +3,10 @@
     "jobProfile": "Full Stack Software Developer",
     "aboutMe": "Full-Stack Software Developer with 3+ years of experience building scalable, high-performance web applications. Skilled in Java, Spring Boot, ReactJS, AWS, and SQL. Passionate about clean architecture, optimization, and continuous learning.",
     "contactDetails": {
-        "phoneNo": "9356522370",
-        "emailId": "gauravdoongarwal@gmail.com",
-        "linkedinUrl": "linkedin.com/in/gaurav-jain-27701b181"
+        "phoneNo": "Phone:+919356522370",
+        "emailId": "mailto:gauravdoongarwal@gmail.com",
+        "linkedinUrl": "https://linkedin.com/in/gaurav-jain-27701b181",
+        "github": "https://github.com/Gauravjain007/"
     },
     "address": {
         "permanentAddress": {

@@ -1,0 +1,36 @@
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    gap: 1rem;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+}
+
+.contact-item-icon {
+    height: 6vh;
+    width: 4vw;
+    object-fit: contain;
+}
+
+.contact-item-icon:hover {
+    cursor: pointer;
+}
+
+.icon-clicked {
+    border: 1px solid #ff9800;
+    border-radius: 0.5rem;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
