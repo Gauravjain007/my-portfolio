@@ -103,8 +103,9 @@
         flex-direction: column;
         margin: auto;
     }
-    .skills_item:not(:last-child) {
-        margin-bottom: 0rem;
+    .skills_row:not(:last-child) {
+        margin-bottom: 1.5rem;
+        margin-right: 0rem;
     }
     .skills_item {
         width: 90px;
@@ -120,6 +121,7 @@
     .skills_row {
         flex-direction: row;
         gap: 0.7rem;
+        justify-content: center;
     }
 }
 
