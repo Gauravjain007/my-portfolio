@@ -51,3 +51,32 @@
     align-items: center;
     display: flex;
 }
+
+@media (max-width: 900px) {
+    .Projects-body {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2vh 2vw;
+    }
+    .Projects-heading {
+        font-size: 3vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .Projects {
+        min-height: 60vh;
+        height: auto;
+    }
+    .Projects-container {
+        height: auto;
+        padding: 2vw;
+    }
+    .Projects-heading {
+        font-size: 2.2vh;
+    }
+    .Projects-body {
+        flex-direction: column;
+        padding: 1vh 1vw;
+    }
+}

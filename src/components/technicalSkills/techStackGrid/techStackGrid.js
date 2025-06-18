@@ -61,6 +61,7 @@ const TechStackGrid = () => {
                     src={skill.icon}
                     alt={skill.name}
                     className="skills_item-icon"
+                    loading="lazy"
                 />
                 <div className="skills_item-name">{skill.name}</div>
             </div>

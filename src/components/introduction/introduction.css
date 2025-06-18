@@ -58,3 +58,40 @@
     color: white;
     cursor: pointer;
 }
+
+@media (max-width: 900px) {
+    .Intro-container {
+        margin: auto;
+        padding: 4vw 2vw;
+        max-width: 98vw;
+    }
+    .intro-text {
+        font-size: 6vw;
+    }
+    #intro-button {
+        font-size: 4vw;
+        padding: 1vh 2vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .Intro {
+        flex-direction: column;
+        padding: 2vh 0;
+        height: auto;
+        min-height: 80vh;
+    }
+    .Intro-container {
+        margin: 0;
+        padding: 2vw 2vw;
+        max-width: 100vw;
+    }
+    .intro-text {
+        font-size: 7vw;
+        padding-bottom: 2vh;
+    }
+    #intro-button {
+        font-size: 5vw;
+        padding: 1vh 4vw;
+    }
+}

@@ -1,3 +1,28 @@
 body {
     background: linear-gradient(to right, #0c161b, #061a20, #000f15);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.App {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
 }

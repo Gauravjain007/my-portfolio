@@ -25,7 +25,8 @@ const AboutMe = ({ scrollRef }) => {
                             <img
                                 id="About-Me-image"
                                 src={profilePic}
-                                alt="Profile-Picture"
+                                alt="Gaurav Doongarwal profile photograph"
+                                loading="lazy"
                             ></img>
                         </div>
                         <div className="About-Me-info">
