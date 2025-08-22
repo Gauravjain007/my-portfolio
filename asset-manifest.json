@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.45e11781.css",
-    "main.js": "/my-portfolio/static/js/main.2b74b0c5.js",
+    "main.js": "/my-portfolio/static/js/main.57c4092e.js",
     "static/media/Photograph.jpg": "/my-portfolio/static/media/Photograph.2fd22dbdfbb26b8b28b5.jpg",
-    "static/media/Gaurav_Doongarwal_Resume_2025.pdf": "/my-portfolio/static/media/Gaurav_Doongarwal_Resume_2025.bf7dcc25b6d80ade91f3.pdf",
+    "static/media/Gaurav_Doongarwal_Resume_2025.pdf": "/my-portfolio/static/media/Gaurav_Doongarwal_Resume_2025.b498c2b97f65642a9d00.pdf",
     "static/media/scrollIndicator.gif": "/my-portfolio/static/media/scrollIndicator.37148b11363869eee33a.gif",
     "static/media/SNOW.svg": "/my-portfolio/static/media/SNOW.624f3e6bb95a3c09525434d2792dd47c.svg",
     "index.html": "/my-portfolio/index.html",
     "main.45e11781.css.map": "/my-portfolio/static/css/main.45e11781.css.map",
-    "main.2b74b0c5.js.map": "/my-portfolio/static/js/main.2b74b0c5.js.map"
+    "main.57c4092e.js.map": "/my-portfolio/static/js/main.57c4092e.js.map"
   },
   "entrypoints": [
     "static/css/main.45e11781.css",
-    "static/js/main.2b74b0c5.js"
+    "static/js/main.57c4092e.js"
   ]
 }
