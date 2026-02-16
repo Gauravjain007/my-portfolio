@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./aboutMe.css";
 import resumeData from "../../assets/resume/resume.json";
-import resume from "../../assets/resume/Gaurav_Doongarwal_Resume_2025.pdf";
+import resume from "../../assets/resume/Gaurav_Doongarwal_Resume_2026.pdf";
 import profilePic from "../../assets/images/Photograph.jpg";
 import gif from "../../assets/icons/scrollIndicator.gif";
 import TechnicalSkills from "../technicalSkills/technicalSkills";
